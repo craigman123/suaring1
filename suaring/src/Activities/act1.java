@@ -1,9 +1,9 @@
 
-package mainclass12;
+package ACtivities;
 
 import java.util.Scanner;
 
-public class suaringact1 {
+public class act1 {
 
 
     public static void main(String[] args) {

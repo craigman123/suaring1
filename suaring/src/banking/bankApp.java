@@ -1,8 +1,8 @@
-package preclass12;
+package banking;
 
 import java.util.Scanner;
 
-public class Preclass12 {
+public class bankApp {
     
     int accountNo = 10001;
     String name;

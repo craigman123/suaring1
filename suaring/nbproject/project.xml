@@ -3,11 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-<<<<<<< HEAD
-            <name>Suaring</name>
-=======
-            <name>suaring1</name>
->>>>>>> 918d063b45e40617e08bd0916f1563073844aaa4
+            <name>suaring</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

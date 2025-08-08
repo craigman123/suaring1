@@ -1,7 +1,7 @@
 
-package mainclass12;
+package Activities;
 
-public class suaringact2 {
+public class act2 {
     
     public static void main(String[] args) {
         System.out.println("Hello");

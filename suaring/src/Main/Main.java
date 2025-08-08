@@ -1,9 +1,9 @@
-package Mainclass12;
+package Main;
 
 import java.util.Scanner;
-import preclass12.Preclass12;
+import banking.bankApp;
 
-public class Mainclass12 {
+public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Mainclass12 {
                 
                 while(tries < 3){
                     
-                Preclass12 bc = new Preclass12();
+                bankApp bc = new bankApp();
                 
                 System.out.println("Enter your Account No: ");
                 int accountNo = sc.nextInt();
@@ -62,4 +62,3 @@ public class Mainclass12 {
     }
     
 }
-
