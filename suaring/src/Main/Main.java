@@ -54,7 +54,6 @@ public class Main {
                                     System.out.print("Enter Pin No.: ");
                                     pin = sc.nextInt();
 
-                                    // Check against all registered accounts
                                     for (int i = 0; i < add; i++) {
                                         if (bapp[i].verifyAccount(accn, pin)) {
                                             System.out.println("LOGIN SUCCESS!");
