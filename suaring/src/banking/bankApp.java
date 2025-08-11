@@ -1,32 +1,51 @@
 package banking;
 
-import java.util.Scanner;
-
 public class bankApp {
     
-    int accountNo = 10001;
-    String name;
-    float initialBalance = 0;
-    int pin = 1234;
-    
-    public boolean Verify(int acc, int pn){
-        
-            if(acc == accountNo && pn == pin){
-                return true;
-            }else{
-                return false;
-            }
+    private int accNo, pin;
+    private float balance;
+
+    public void setAccNo(int accNo) {
+        this.accNo = accNo;
+    }
+
+    public int getAccNo() {
+        return accNo;
+    }
+
+    public void setPin(int pin) {
+        this.pin = pin;
+    }
+
+    public void setBalance(float balance) {
+        this.balance = balance;
+    }
+
+    public int getPin() {
+        return pin;
+    }
+
+    public float getBalance() {
+        return balance;
     }
     
-    public int setAccount(){
-        return accountNo;
+    
+    
+    
+    public boolean verifyAccount(int acc, int pn){
+        if(accNo == acc && pin == pn){
+            return true;
+        }else{
+            return false;
+        }
     }
     
-    public void viewBalance(){
-    
+    public void withdraw(){
     
     }
     
+    public void deposit(){
     
+    }
     
 }
